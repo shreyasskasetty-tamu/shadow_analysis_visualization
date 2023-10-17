@@ -57,15 +57,10 @@ The app should be accessible at `http://localhost:3000/shadow_analysis_visualiza
 
 ## Screenshots
 
-![ho
-
+<img width="1512" alt="Screenshot 2023-10-17 at 4 02 29 AM" src="https://github.com/shreyasskasetty-tamu/shadow_analysis_visualization/assets/142867885/6323283f-dff4-4569-b5c4-9ee987f91a54">
 
 ## Demo
 
-![Demo]()
-<video width="320" height="240" controls>
-  <source src="https://drive.google.com/drive/folders/1cOBDRGFPN8aOsGHEu2wFrWMX8i9bmFWC)https://drive.google.com/drive/folders/1cOBDRGFPN8aOsGHEu2wFrWMX8i9bmFWC" type="video/mov">
-</video>
 
 
 
