@@ -64,7 +64,7 @@ The app should be accessible at `http://localhost:3000/shadow_analysis_visualiza
 
 ![Demo]()
 <video width="320" height="240" controls>
-  <source src="[video.mov](https://drive.google.com/drive/folders/1cOBDRGFPN8aOsGHEu2wFrWMX8i9bmFWC)https://drive.google.com/drive/folders/1cOBDRGFPN8aOsGHEu2wFrWMX8i9bmFWC" type="video/mov">
+  <source src="https://drive.google.com/drive/folders/1cOBDRGFPN8aOsGHEu2wFrWMX8i9bmFWC)https://drive.google.com/drive/folders/1cOBDRGFPN8aOsGHEu2wFrWMX8i9bmFWC" type="video/mov">
 </video>
 
 
