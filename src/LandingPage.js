@@ -26,6 +26,9 @@ const LandingPage = () => {
       const response = await axios.post(`https://ylj0v7tfp4.execute-api.us-east-1.amazonaws.com/v1/visualize-shadow`, {
         document_id: documentId,
         colormap: selectedColorMap,
+      },
+      {
+        timeout: 60000, // Set the timeout here
       });
 
       const image_url = response.data; // Assuming your API response contains the image URL
