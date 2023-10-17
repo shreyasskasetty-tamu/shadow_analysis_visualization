@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Front-end App Documentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+The front-end app is an interface that allows users to visualize shadow data retrieved from a MongoDB database. It serves as a flexible and beneficial user interface for plotting different types of graphs based on shadow analysis results.
 
-In the project directory, you can run:
+## How to Use
 
-### `npm start`
+1. **Shadow Data Input:**
+   - Enter the MongoDB Document ID for the shadow analysis data you want to visualize in the "Enter MongoDB Document ID" field.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Color Map Selection:**
+   - Choose a color map from the dropdown list in the "Select Color Map" field. Available color maps include:
+     - viridis
+     - plasma
+     - inferno
+     - magma
+     - cividis
+     - cool
+     - hot
+     - coolwarm
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Visualization:**
+   - Click the "Visualize" button to initiate the visualization process.
 
-### `npm test`
+4. **Visualization Output:**
+   - Once the visualization process is complete, the shadow analysis result will be displayed in the designated area.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Code Structure
 
-### `npm run build`
+The front-end app is built using React and utilizes Material-UI components for the user interface. Key components and their functionalities include:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `LandingPage.js`: The main component that handles user input and triggers the visualization process.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To use the front-end app locally or integrate it into your project, follow these steps:
 
-### `npm run eject`
+1. Clone the repository to your local machine:
+```
+git@github.com:shreyasskasetty-tamu/shadow_analysis_visualization.git
+```
+2. Navigate to the `shadow-analysis-app` directory:
+```
+cd shadow-analysis-app
+```
+3. Install dependencies:
+```
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Start the development server:
+```
+npm start
+```
+The app should be accessible at `http://localhost:3000/shadow_analysis_visualization` in your web browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Shadow Analysis App]()
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Demo](https://drive.google.com/drive/folders/1cOBDRGFPN8aOsGHEu2wFrWMX8i9bmFWC)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
