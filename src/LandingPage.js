@@ -23,7 +23,7 @@ const LandingPage = () => {
     setIsLoading(true);
     try {
       // Send a POST request with the documentId and selectedColorMap in the request body
-      const response = await axios.post(`http://ec2-35-173-183-116.compute-1.amazonaws.com:5001/api/v1/shadow_analysis/visualize-shadow-data`, {
+      const response = await axios.post(`https://ylj0v7tfp4.execute-api.us-east-1.amazonaws.com/v1/visualize-shadow`, {
         document_id: documentId,
         colormap: selectedColorMap,
       });
